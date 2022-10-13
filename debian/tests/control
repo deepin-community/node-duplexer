@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-duplexer
+
+Test-Command: node test
+Depends: @, node-tape, node-through
